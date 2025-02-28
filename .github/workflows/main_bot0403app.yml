@@ -44,7 +44,7 @@ jobs:
           name: python-app
 
       - name: Deploy to Azure Web App
-        uses: azure/webapps-deploy@v4
+        uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
           app-name: 'bot0403app'
